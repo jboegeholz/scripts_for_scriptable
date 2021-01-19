@@ -22,8 +22,6 @@ async function createWidget(followers) {
     let widget = new ListWidget();
     widget.backgroundColor = Color.black();
     let wFollowers = widget.addText(followers);
-    wFollowers.font = Font.mediumRoundedSystemFont(detailFontSize)
-    wFollowers.textColor = detailColor;
     wFollowers.centerAlignText();
     return widget;
 }

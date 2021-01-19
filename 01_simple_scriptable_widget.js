@@ -14,7 +14,7 @@ Script.complete();
 async function createWidget() {
     let widget = new ListWidget();
     widget.backgroundColor = Color.black();
-    let header = widget.addText("Hello World");
+    let header = widget.addText("Hello World!");
     header.font = Font.mediumSystemFont(20);
     return widget;
 }
